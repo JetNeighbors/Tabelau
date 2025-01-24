@@ -1,0 +1,42 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Main portfolio heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Portfolio container */
+.portfolio {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual project card styles */
+.project {
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 300px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 10px;
+}
