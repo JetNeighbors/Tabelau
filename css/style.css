@@ -6,6 +6,25 @@ body {
   background-color: #f4f4f4;
 }
 
+
+/* Container for centering */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 0;
+}
+
+/* Wrapper for the embedded visualization */
+.viz-wrapper {
+  width: 100%;
+  max-width: 1200px; /* Optional: max width for large screens */
+  height: 80%; /* Optional: ensures content doesn't stretch too high */
+  position: relative;
+}
+
+
 /* Main portfolio heading */
 h1 {
   text-align: center;
@@ -37,8 +56,6 @@ h1 {
   height: 200px; /* Sets a fixed height for all thumbnails */
   object-fit: cover; /* Ensures the image is cropped proportionally without distortion */
 }
-
-
 
 .project h3 {
   background-color: #f1f1f1;
