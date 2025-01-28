@@ -60,9 +60,10 @@ nav ul li a:hover {
 }
 
 .project img {
-  width: 100%;
-  height: auto;
-  border-bottom: 1px solid #ddd;
+  width: 100%; /* Ensures the image scales to fit the card */
+  height: 200px; /* Sets a fixed height for all images */
+  object-fit: cover; /* Ensures the image is cropped proportionally without distortion */
+  border-bottom: 1px solid #ddd; /* Optional: adds a border under the image */
 }
 
 .project h3 {
