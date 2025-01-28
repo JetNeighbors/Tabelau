@@ -41,48 +41,36 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-
-/* Individual project card styles */
-
-.portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.project-card {
-  width: 300px;
-  background: white;
+/* Card styles */
+.project {
+  margin: 20px;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
   overflow: hidden;
+  background-color: #fff;
+  width: 300px;
   text-align: center;
-  transition: transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.project-card img {
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
   width: 100%;
   height: auto;
   border-bottom: 1px solid #ddd;
 }
 
-.project-card h3 {
-  font-size: 1.2rem;
-  margin: 10px 0;
+.project h3 {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.2em;
+  background-color: #f9f9f9;
 }
 
-.project-card p {
-  padding: 0 10px 10px;
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
 
 
