@@ -63,12 +63,12 @@ nav ul li {
 
 nav ul li a {
   padding: 0.5rem 1rem; /* Adds padding around links */
-  border-radius: 5px; /* Optional: Adds rounded corners to hover effect */
-  transition: background-color 0.3s; /* Smooth hover animation */
+  border-radius: 5px; /* Adds rounded corners to hover effect */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover animation */
 }
 
 nav ul li a:hover {
-  background-color: #555; /* Adds a background highlight on hover */
+  background-color: #555; /* Dark gray background on hover */
+  color: #fff; /* White text color on hover */
 }
-
 
