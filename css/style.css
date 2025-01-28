@@ -19,28 +19,6 @@ h1 {
   margin-top: 20px;
 }
 
-/* Individual project card styles */
-.project {
-  margin: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #fff;
-  width: 300px;
-  text-align: center;
-}
-
-.project img {
-  width: 100%;
-  height: auto;
-}
-
-.project h3 {
-  background-color: #f1f1f1;
-  margin: 0;
-  padding: 10px;
-}
-
 /* Navigation Styles */
 
 nav {
@@ -62,3 +40,49 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+
+/* Individual project card styles */
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  width: 300px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.project-card p {
+  padding: 0 10px 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
