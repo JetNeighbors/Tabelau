@@ -58,17 +58,11 @@ nav ul {
   justify-content: center;
 
 nav ul li {
-  margin: 0 20px; /* Increases spacing between items */
+  margin: 0 15px;
 }
 
 nav ul li a {
-  padding: 0.5rem 1rem; /* Adds padding around links */
-  border-radius: 5px; /* Adds rounded corners to hover effect */
-  transition: background-color 0.3s, color 0.3s; /* Smooth hover animation */
-}
-
-nav ul li a:hover {
-  background-color: #555; /* Dark gray background on hover */
-  color: #fff; /* White text color on hover */
+  color: white;
+  text-decoration: none;
 }
 
