@@ -40,3 +40,25 @@ h1 {
   margin: 0;
   padding: 10px;
 }
+
+/* Navigation Styles */
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
