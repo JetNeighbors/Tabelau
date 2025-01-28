@@ -46,23 +46,37 @@ h1 {
   padding: 10px;
 }
 
-/* Navigation Styles */
 
+/* Navigation Styles */
 nav {
-  background-color: #333;
-  padding: 1rem;
+  background-color: #333; /* Dark background */
+  padding: 15px 0; /* Vertical padding */
+  position: sticky; /* Keeps navbar at the top of the page */
+  top: 0; /* Sticks it at the top */
+  z-index: 1000; /* Ensures it stays on top of other content */
 }
+
 nav ul {
   display: flex;
+  justify-content: center; /* Centers the navigation links */
   list-style-type: none;
-  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 20px; /* Adds space between the links */
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-size: 1.2em;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #444; /* Light hover effect */
+  border-radius: 4px; /* Rounded corners on hover */
 }
 
